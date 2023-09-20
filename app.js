@@ -1,6 +1,6 @@
 const express = require('express')
 
-const port = 3500
+const port = 5000
 
 const app = express()
 
@@ -68,5 +68,5 @@ app.get('/productos', (req, resp) => {
 })
 
 app.listen(3000,() =>{
-    console.log('Servidor corriendo en http://localhost:3000')
+    console.log('Servidor corriendo en http://localhost:5000')
 })
