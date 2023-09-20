@@ -67,6 +67,6 @@ app.get('/productos', (req, resp) => {
     resp.sendFile(`${__dirname}/views/productos.html`)
 })
 
-app.listen(3000,() =>{
-    console.log('Servidor corriendo en http://localhost:5000')
+app.listen(port,() =>{
+    console.log(`Servidor corriendo en http://localhost:${port}`)
 })
